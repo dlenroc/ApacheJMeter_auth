@@ -7,7 +7,7 @@
     <groupId>com.github.dlenroc</groupId>
     <artifactId>ApacheJMeter_auth</artifactId>
     <name>JMeter Auth Plugin</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <jmeter.version>4.0</jmeter.version>

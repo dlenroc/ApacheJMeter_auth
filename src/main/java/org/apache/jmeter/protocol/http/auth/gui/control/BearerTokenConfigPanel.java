@@ -22,7 +22,7 @@ public class BearerTokenConfigPanel extends JPanel {
      * @param sampler
      */
     public static void sample(AuthSampler sampler) {
-        sampler.setAuthorizationHeader(sampler.getPropertyAsString("BearerToken.token"));
+        sampler.setAuthorizationHeader("Bearer " + sampler.getPropertyAsString("BearerToken.token"));
     }
 
     /**
